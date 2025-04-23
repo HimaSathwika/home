@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Sample Website</title>
+  <style>
+    * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+    color: #333;
+  }
+  
+  .container {
+    width: 90%;
+    max-width: 1100px;
+    margin: 0 auto;
+  }
+  
+  header {
+    background: #333;
+    color: #fff;
+    padding: 1rem 0;
+  }
+  
+  header h1 {
+    float: left;
+  }
+  
+  nav ul {
+    list-style: none;
+    float: right;
+  }
+  
+  nav ul li {
+    display: inline;
+    margin-left: 20px;
+  }
+  
+  nav ul li a {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  .hero {
+    background: url('https://via.placeholder.com/1200x400') center/cover no-repeat;
+    color: #fff;
+    text-align: center;
+    padding: 100px 20px;
+  }
+  
+  .hero .btn {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 10px 25px;
+    background: #007BFF;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+  }
+  
+  .content {
+    padding: 40px 0;
+    background: #fff;
+  }
+  
+  .content h3 {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .cards {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+  }
+  
+  .card {
+    background: #f9f9f9;
+    padding: 20px;
+    flex: 1;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+  }
+  
+  footer {
+    background: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+    margin-top: 40px;
+  }
+  
+  </style>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+    <div class="container">
+      <h1>My Sample Website</h1>
+      <nav>
+        <ul>
+          <li><a href="#">Home</a></li>
+          <li><a href="#">About</a></li>
+          <li><a href="#">Services</a></li>
+          <li><a href="#">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <section class="hero">
+    <div class="container">
+      <h2>Welcome to Our Site</h2>
+      <p>We provide amazing solutions for your needs.</p>
+      <a href="#" class="btn">Learn More</a>
+    </div>
+  </section>
+
+  <section class="content">
+    <div class="container">
+      <h3>Our Services</h3>
+      <div class="cards">
+        <div class="card">
+          <h4>Web Design</h4>
+          <p>Beautiful and responsive websites.</p>
+        </div>
+        <div class="card">
+          <h4>Development</h4>
+          <p>Custom software and web apps.</p>
+        </div>
+        <div class="card">
+          <h4>SEO</h4>
+          <p>Boost your website ranking.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <div class="container">
+      <p>&copy; 2025 Sample Website. All rights reserved.</p>
+    </div>
+  </footer>
+</body>
+</html>
